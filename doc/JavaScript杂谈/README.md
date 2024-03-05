@@ -28,7 +28,7 @@ layout:
 
 
 
-{% content-ref url="0.-ti-wen.md" %}
-[0.-ti-wen.md](0.-ti-wen.md)
+{% content-ref url="c0.md" %}
+[c0.md](c0.md)
 {% endcontent-ref %}
 
