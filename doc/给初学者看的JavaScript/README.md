@@ -18,6 +18,4 @@ layout:
 
 所以，这个系列会偏向简单和起步，如果你需要更高级的内容，请移步
 
-{% content-ref url="https://app.gitbook.com/s/Ox13dLXqhrUAVqk0aNUS/" %}
-[JavaScript杂谈](https://app.gitbook.com/s/Ox13dLXqhrUAVqk0aNUS/)
-{% endcontent-ref %}
+[JavaScript杂谈](https://app.gitbook.com/s/Ox13dLXqhrUAVqk0aNUS/ "mention")
