@@ -1,0 +1,78 @@
+# 忍者风代码编写指南
+
+大家好！这里是Nomina，今天为大家带来一份忍者风代码编写详细教程
+
+将你的代码忍者化，可以有效的提升你的外在实力，并且让别人不敢影响你编码
+
+同时，你可以让项目缩小，让别人不敢插手，不敢动你的代码，即使有bug也只能叫你，提升你的重要性
+
+* 1 注释
+
+一个好代码没有任何注释可以让他看起来很精简，别人也只能通过代码中的只言片语来推测这段代码的作用\
+同时，没有注释的代码可以让项目看起来非常高级，这很酷，不是吗？
+
+并且，当你写了足够多的jsdoc，别人就一定能看懂你的代码对不对，这不冗余并且很高效，因为让你的代码50%都是注释很不错
+
+哦不，如果你只是给关键的函数写注释，并且将名字写的过于易于理解，例如getPlayerData而不是playerDataSearcherAndThisIsARealFrakingStubidLongLongName，这只会让你的代码被别人轻易理解
+
+* 2 随机简短的命名
+
+这可以很好的让别人无法理解你的代码，例如一个好的命名应该是这样的：a\
+错误的命名是这样的：getValueOfA\
+简短的命名可以让你的代码看起来浑然一体，足够体现你的实力了，并且别人不敢用你的接口的时候，bug不就少了吗 :)
+
+* 3 全部写成一行
+
+将代码全部写成一行，这体现了你的实力，因为你可以将多行代码一口气写成一行\
+这看起来绝对很棒，就像这样
+
+```javascript
+new Database().verbose().getValue(arr.params[str].replace(/awa/,"").trim().concat(str2)).then(v=>v.read()).then(v=>arr.value.push(Array.isArray(v)?v.pop():Array.from(v).unshift()))
+```
+
+但是，如果你写成这样，那就是错误的，看起来一点都不高级
+
+```javascript
+new Database()
+    .verbose()
+    .getValue(arr.params[str].replace(/awa/,"").trim().concat(str2))
+    .then(v=>v.read())
+    .then(v=>{
+        arr.value.push(Array.isArray(v)?v.pop():Array.from(v).unshift())
+    });
+```
+
+* 4 多用全局变量
+
+变量？那肯定必须放到globalThis上，或者在任何地方随意的用var来定义变量，这些古老的特性能让你的代码看起来扑朔迷离
+
+这样的代码，只有你能看得懂，看啊，这显得你多么强大！
+
+* 5 嵌套，回调与你的tab键
+
+嵌套与回调是多么神奇，多么美好的东西，这些东西让你能够在文档上建立小山一样的代码集合
+
+别人过来，肯定会惊叹，哦我的老天爷啊，这么多的tab，这个项目肯定相当庞大（但是你也可以自定义，用5个空格代替tab，这看起来更大）
+
+同时，好的回调可以让你的代码看起来足够高级和高效，就像这样
+
+```javascript
+(function(c){
+    // something...
+    c();
+})((function(c){
+    // something...
+    c()
+})(function(c){
+    // something...
+    c();
+}))
+```
+
+或者，如果你乐意的话，你也可以这样写
+
+```javascript
+let a=(c)=>{(function(cc){(function(Dqvo1){(function(zajy2){})(e)})(d)})(b)}
+```
+
+最后，如果你成功学会了这些忍者技巧，能够让你的代码变得高级，看起来足够成熟，对不？
